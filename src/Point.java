@@ -1,5 +1,6 @@
-public class Point{
+class Point{
     int x, y;
+    static int cnt;
 
 
     //инициализатор
@@ -8,12 +9,7 @@ public class Point{
         y = -1;
     }
 
-    Point () {
-    }
+    Point () {cnt++;}
 
-    Point (int x, int y) { //перегрузка конструктора
-        this.x = x;
-        this.y = y;
-    }
 
 }

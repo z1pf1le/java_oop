@@ -3,7 +3,7 @@ public class Rect{
     private static final int MAX_COORD = 1000;
 //    int []xy;
 
-    Rect() {};
+//    Rect() {};
 
     Rect (int x1, int y1, int x2, int y2) { //перегрузка 1 конструктора
         this.x1 = x1;
@@ -11,6 +11,8 @@ public class Rect{
         this.x2 = x2;
         this.y2 = y2;
     }
+
+
 
 //    Rect (int length, int width, int []xy) { //перегрузка 2 конструктора
 //        this.length = length;
@@ -39,4 +41,6 @@ public class Rect{
     public int getX2() {return x2;}
     public int getY1() {return y1;}
     public int getY2() {return y2;}
+
+
 }

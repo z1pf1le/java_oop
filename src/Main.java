@@ -27,13 +27,21 @@ public class Main {
 //        System.out.println(Dog.Stat.counter);
 //        Properties prop1 = new Properties(1, "anus", Properties.Color.red);
 //        Properties prop2 = new Properties(2, "anus", Properties.Color.blue);
-        MusInstr guitar = new MusInstr(1, "LesPaul");
-        MusInstr base = new MusInstr(1, "LesPaul");
-        System.out.println(MusInstr.Stat.counter);
 //        System.out.println(guitar.type);
+//        MusicalInstrument.Dimensions dimensions = new MusicalInstrument.Dimensions(40, 20);
+//        MusicalInstrument guitar = new MusicalInstrument("greco", 1, dimensions, 1000.0, 2000);
+//        MusicalInstrument anus= new MusicalInstrument("greco", 2, dimensions, 1000.0, 2000);
+//        MusicalInstrument gay = new MusicalInstrument("greco", 1, dimensions, 1000.0, 2000);
+//        System.out.println(MusicalInstrument.InstrumentStatistics.getTypeCount(2));
+        System.out.println(Asbtr.speak());
+        Anus anus = new Anus(2);
+//        System.out.println(Anus.square());
+        Sfinkter sfinkter = new Sfinkter(3);
+        System.out.println(anus.getSquare());
+        System.out.println(sfinkter.getSquare());
     }
 }
 
-//https://www.youtube.com/watch?v=uiT5C6TcStI&list=PLA0M1Bcd0w8ylU5QOQvRhS7TaaWCgnys3&index=18
+//https://www.youtube.com/watch?v=8JNTaP0LIj4&list=PLA0M1Bcd0w8ylU5QOQvRhS7TaaWCgnys3&index=23
 
 

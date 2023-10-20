@@ -1,9 +1,13 @@
+import java.util.Objects;
+
 public class MusicalInstrument {
     private String name;
     private int type;
     private Dimensions dimensions;
     private double price;
     private int yearOfProduction;
+
+
 
     //конструктор c аргументом
     public MusicalInstrument(String name, int type, Dimensions dimensions, double price, int yearOfProduction) {

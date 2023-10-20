@@ -1,4 +1,4 @@
-import example.MyClass;
+
 import testobject.Rect;
 import testobject.ShopItem;
 
@@ -20,8 +20,8 @@ public class Main {
 //        System.out.println(it3.id);
 //        Rect rect1 = new Rect(0,0,4,4);
 //        System.out.println(Rect.getHeight(rect1));
-//        Dog d = new Dog("Bim");
-//        d.run();
+        Dog d = new Dog("Bim");
+        d.run();
 //        Dog d2 = new Dog("Bim2");
 //        d2.run();
 //        System.out.println(Dog.Stat.counter);
@@ -33,12 +33,12 @@ public class Main {
 //        MusicalInstrument anus= new MusicalInstrument("greco", 2, dimensions, 1000.0, 2000);
 //        MusicalInstrument gay = new MusicalInstrument("greco", 1, dimensions, 1000.0, 2000);
 //        System.out.println(MusicalInstrument.InstrumentStatistics.getTypeCount(2));
-        System.out.println(Asbtr.speak());
-        Anus anus = new Anus(2);
-//        System.out.println(Anus.square());
-        Sfinkter sfinkter = new Sfinkter(3);
-        System.out.println(anus.getSquare());
-        System.out.println(sfinkter.getSquare());
+//        System.out.println(Asbtr.speak());
+//        Anus anus = new Anus(2);
+////        System.out.println(Anus.square());
+////        Sfinkter sfinkter = new Sfinkter(3);
+//        System.out.println(anus.getSquare());
+
     }
 }
 

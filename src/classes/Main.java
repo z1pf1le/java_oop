@@ -25,7 +25,7 @@ public class Main{
 
         short littleNumber = 1000;
 
-        littleNumber = bigNumber;//ошибка!
+//        littleNumber = bigNumber;//ошибка!
         System.out.println(bigNumber);
     }
 }
